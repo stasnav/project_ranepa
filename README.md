@@ -18,6 +18,38 @@
 
 ---
 
+## Установка и запуск
+
+# 1. Клонировать репозиторий
+
+``` bash
+git clone https://github.com/stasnav/project_ranepa.git
+cd project_ranepa
+```
+
+# 2. Создать виртуальное окружение
+
+``` bash
+python3 -m venv venv
+source venv/bin/activate       # macOS / Linux
+# или
+venv\Scripts\activate        # Windows
+```
+
+# 3. Установить зависимости
+
+``` bash
+pip install -r requirements.txt
+```
+
+# 4. Запустить парсер
+
+``` bash
+python3 parse_pedagogy.py
+```
+
+Результат появится в консоли в виде JSON.
+
 ## Пример результата
 
 ```json
